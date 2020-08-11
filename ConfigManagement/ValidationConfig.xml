@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<validations>
+  <OrderFileValidations IsEnabled="true">
+    <Validation Key="CheckAccountCodeValidation" IsEnabled="true" ErrorKey="NullAccountCode"></Validation>
+    <Validation Key="CheckTradeDateValidation" IsEnabled="true" ErrorKey="NullTradeDate"></Validation>
+  </OrderFileValidations>
+  <ErrorMessages>
+    <Error Key="NullAccountCode" ErrorMessage="Account code is null"></Error>
+    <Error Key="NullTradeDate" ErrorMessage="Trade Date is null"></Error>
+  </ErrorMessages>
+</validations>
